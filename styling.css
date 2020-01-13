@@ -1,0 +1,58 @@
+
+.bg-custom {
+    background-color: black;
+}
+
+.navbar-brand {
+	color: white !important;
+	text-shadow: 1px 1px 0.5px grey !important;
+}
+
+.nav-link {
+	color: white !important;
+	text-shadow: 1px 1px 0.5px grey !important;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.nav-link:hover {
+    background-color: #7dc2ff !important;
+}
+
+img {
+	width: 350px;
+	height: 100%
+}
+
+body {
+	background-color: #7dc2ff;
+}
+
+
+h1 {
+	color: white;
+	text-shadow: 1px 1px 2px black !important;
+	text-align: center;
+	font-weight: bolder;
+}
+
+h2 {
+	color: white;
+	text-shadow: 1px 1px 2px black !important;
+	text-align: center;
+	font-weight: bolder;
+}
+
+p {
+	color: white;
+	text-shadow: 1px 1px 2px black !important;
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.container {
+	border: 12px solid black;
+}
