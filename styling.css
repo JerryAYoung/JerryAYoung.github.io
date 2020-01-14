@@ -13,46 +13,91 @@
 	text-shadow: 1px 1px 0.5px grey !important;
 }
 
+.navbar-toggler{
+    background-color: white !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+	background-image: black;
+
+}
+/* When a user hovers over one of the navbar selections, it will inverse the colors */
+.nav-link:hover {
+	color: black !important;
+    background-color: white !important;
+}
+
 body {
 	font-family: 'Source Sans Pro', sans-serif !important;
+	background-color: black;
 }
-
-.nav-link:hover {
-    background-color: #7dc2ff !important;
-}
-
-img {
-	width: 350px;
-	height: 100%
-}
-
-body {
-	background-color: #7dc2ff;
-}
-
 
 h1 {
 	color: white;
-	text-shadow: 1px 1px 2px black !important;
-	text-align: center;
-	font-weight: bolder;
-}
-
-h2 {
-	color: white;
-	text-shadow: 1px 1px 2px black !important;
+	text-shadow: 1px 1px 1px black !important;
 	text-align: center;
 	font-weight: bolder;
 }
 
 p {
 	color: white;
-	text-shadow: 1px 1px 2px black !important;
+	text-shadow: 1px 1px 1px black !important;
 	text-align: left;
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 20px;
+	font-weight: bolder;
 }
 
-.container {
-	border: 12px solid black;
+#aboutme {
+	color: white;
+	text-shadow: 1px 1px 1px grey !important;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bolder;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	border: 5px solid white;
+	border-image: url("/Users/jerryyoung/Desktop/Programs/JerryAYoung.github.io/arise.png") 30 round;
+}
+
+#psPara {
+	text-shadow: 1px 1px 1px grey !important;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bolder;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+#fulllogo {
+	height: 35px;
+	width: auto;
+}
+
+.heading {
+	color: white;
+	text-shadow: 1px 1px 1px grey !important;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.jumbotron {
+	background-image: url("/Users/jerryyoung/Desktop/Programs/JerryAYoung.github.io/arise.png");
+	background-size: cover;
+	margin-top: 20px;
+	border: 5px solid white;
+	border-radius: 25px;
+}
+
+.btn {
+	background-color: black;
+	text-shadow: 1px 1px 1px grey !important;
+	border: black;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 20px;
+	height: auto;
+	padding-bottom: 4px;
 }
