@@ -56,7 +56,7 @@ p {
 	padding-top: 35px;
 	padding-bottom: 35px;
 	border: 5px solid white;
-	border-image: url("/Users/jerryyoung/Desktop/Programs/JerryAYoung.github.io/arise.png") 30 round;
+	border-image: url("arise.png") 30 round;
 }
 
 #psPara {
@@ -82,7 +82,7 @@ p {
 }
 
 .jumbotron {
-	background-image: url("/Users/jerryyoung/Desktop/Programs/JerryAYoung.github.io/arise.png");
+	background-image: url("arise.png");
 	background-size: cover;
 	margin-top: 20px;
 	border: 5px solid white;
