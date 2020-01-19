@@ -56,7 +56,7 @@ p {
 	padding-top: 35px;
 	padding-bottom: 35px;
 	border: 5px solid white;
-	border-image: url("arise.PNG") 30 round;
+	border-image: url("images/arise.PNG") 30 round;
 }
 
 #psPara {
@@ -86,7 +86,7 @@ p {
 
 /*Jumbotron on "Home" page*/
 .jumbotron {
-	background-image: url("arise.PNG");
+	background-image: url("images/arise.PNG");
 	background-size: cover;
 	margin-top: 20px;
 	border: 5px solid white;
