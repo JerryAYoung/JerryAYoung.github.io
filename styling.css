@@ -36,44 +36,49 @@ h1 {
 	color: white;
 	text-shadow: 1px 1px 1px black !important;
 	text-align: center;
-	font-weight: bolder;
+	font-weight: 900;
+}
+
+h2 {
+	color: white;
+	text-shadow: 1px 1px 1px black !important;
+	text-align: center;
+	font-weight: 900;
 }
 
 p {
 	color: white;
-	text-shadow: 1px 1px 1px black !important;
+	text-shadow: 1px 1px 2px black;
 	text-align: left;
 	font-size: 20px;
-	font-weight: bolder;
+	font-weight: 900;
 }
 
-#aboutme {
+/*Styling the skill lists on the "About Me" page*/
+#skills {
 	color: white;
-	text-shadow: 1px 1px 1px grey !important;
+	text-shadow: 1px 1px 1px grey;
 	text-align: left;
 	font-size: 20px;
-	font-weight: bolder;
+	font-weight: 900;
 	padding-top: 35px;
 	padding-bottom: 35px;
 	border: 5px solid white;
 	border-image: url("images/arise.PNG") 30 round;
 }
 
-#psPara {
+/*Styling the paragraph on the "About Me" page*/
+.aboutMeParagraph {
 	text-shadow: 1px 1px 1px grey !important;
-	text-align: left;
-	font-size: 20px;
-	font-weight: bolder;
 	padding-left: 35px;
 	padding-right: 35px;
 }
 
-
+/*Personal logo formatting top left*/
 #jyLogo {
 	height: 35px;
 	width: auto;
 }
-
 
 /* Heading of "About Me" page*/
 .heading {
@@ -81,7 +86,7 @@ p {
 	text-shadow: 1px 1px 1px grey !important;
 	text-align: center;
 	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-bottom: 5px;
 }
 
 /*Jumbotron on "Home" page*/
