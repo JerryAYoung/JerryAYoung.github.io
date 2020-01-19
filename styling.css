@@ -68,11 +68,14 @@ p {
 	padding-right: 35px;
 }
 
-#fulllogo {
+
+#jyLogo {
 	height: 35px;
 	width: auto;
 }
 
+
+/* Heading of "About Me" page*/
 .heading {
 	color: white;
 	text-shadow: 1px 1px 1px grey !important;
@@ -81,6 +84,7 @@ p {
 	padding-bottom: 35px;
 }
 
+/*Jumbotron on "Home" page*/
 .jumbotron {
 	background-image: url("arise.PNG");
 	background-size: cover;
@@ -89,14 +93,16 @@ p {
 	border-radius: 25px;
 }
 
-.btn {
+/*Buttons within jumbotron*/
+.jumbotron .btn {
 	background-color: black;
 	text-shadow: 1px 1px 1px grey !important;
 	border: black;
 	margin: 0 auto;
 }
 
-#logo {
+/*Button logos*/
+.buttonLogo {
 	width: 20px;
 	height: auto;
 	padding-bottom: 4px;
